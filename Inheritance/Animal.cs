@@ -8,9 +8,15 @@ namespace Inheritance
 {
     internal class Animal
     {
-    
-    
-    
+        
+        public bool HasEars { get; set; }
+        public bool HasMouth { get; set; }
+        public string Diet { get; set; }
+        public string Enviroment { get; set; }
+
+
+
+
     }
 
 

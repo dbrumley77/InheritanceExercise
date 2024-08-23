@@ -14,6 +14,12 @@ namespace Inheritance
         public string Color { get; set; }
 
 
+        public void Speak()
+        {
+            Console.WriteLine($"The bird makes this sound: flutter, flutter");
+        }
+
+
 
     }
 
